@@ -9,6 +9,8 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
     }
     .container {
       display: flex;
@@ -19,20 +21,51 @@
     }
     .item {
       width: calc(33.33% - 20px);
-      background-color: #f0f0f0;
+      background-color: #fff;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
     .item h2 {
       margin-top: 0;
+      font-size: 1.5rem;
+      color: #007bff;
+    }
+    .item p {
+      margin-bottom: 10px;
     }
     .item a {
       display: block;
       text-align: center;
-      margin-top: 10px;
       color: #007bff;
       text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .item a:hover {
+      color: #0056b3;
+    }
+    .objective,
+    .competencias,
+    .temas {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .objective h1,
+    .competencias h1,
+    .temas h1 {
+      margin-top: 0;
+      color: #007bff;
+    }
+    .objective p {
+      margin-bottom: 0;
+    }
+    .competencias ol,
+    .temas ol {
+      padding-left: 20px;
+      margin-top: 0;
     }
   </style>
 </head>
